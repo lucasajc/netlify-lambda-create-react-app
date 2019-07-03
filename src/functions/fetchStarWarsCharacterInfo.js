@@ -20,12 +20,4 @@ exports.handler = async(event, context) => {
     body: JSON.stringify(response),
   };
 
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      success: response.success,
-      data: response.data || response.error,
-    }),
-  };
-
 }
