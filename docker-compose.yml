@@ -1,0 +1,14 @@
+version: '3'
+services:
+  client:
+    container_name: example_client
+    build: .
+    command: yarn run start
+    volumes:
+      - ./:/usr/src/app
+      - nodemodules_client:/usr/src/netlify_app/node_modules
+    ports:
+      - "3000:3000"
+      - "9000:9000"
+volumes:
+  nodemodules_client:
