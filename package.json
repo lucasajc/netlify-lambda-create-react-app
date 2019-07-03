@@ -10,10 +10,12 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+   "start:server": "netlify-lambda serve /src/functions",
+   "start": "react-scripts start & yarn run start:server",
+   "build:functions": "netlify-lambda build /src/functions",
+   "build": "react-scripts build && yarn run build:functions",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
