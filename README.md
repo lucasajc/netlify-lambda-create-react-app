@@ -43,13 +43,17 @@ yarn run build:functions
 
 Initialize your application with `create-react-app` package typing:
 
-`npx create-react-app your-project-name`
+```
+npx create-react-app your-project-name
+```
 
 ### Step 2: adding netlify lambda package
 
 Add the `netlify-lambda` package, which helps build Netlify lambda builds using Webpack and Babel, and axios to fulfill our requests.
 
-`yarn add netlify-lambda axios`
+```
+yarn add netlify-lambda axios
+```
 
 ### Step 3: creating and saving the lambda function
 
