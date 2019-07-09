@@ -5,6 +5,7 @@
 * [Instruction](#instruction)
 * [How to run it](#how-to-run-it)
 * [How to build it from scratch](#how-to-build-it-from-scratch)
+* [References](#references)
 * [License](#license)
 
 ## Instruction
@@ -114,6 +115,14 @@ Develop the lambda function call at the front-end. In our case, in [App.js](http
 ### Step 10: connect and deploy
 
 Connect and deploy your application to Netlify platform following [these instructions](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/).
+
+## References
+
+* [Serverless Lambda functions on Netlify](https://www.netlify.com/docs/functions/)
+
+* [netlify/create-react-app-lambda](https://github.com/netlify/create-react-app-lambda)
+
+* [Hiding Serverless apps API Keys and Secret Key by Using Netlify and Netlify Lambda](https://medium.com/@pailee.wai/hiding-serverless-apps-api-keys-and-secret-key-by-using-netlify-and-netlify-lambda-68c7e4a16a44)
 
 ## License
 
