@@ -10,7 +10,7 @@
 
 ## Instruction
 
-This is an example project that uses `create-react-app` and `netlify-lambda` to fetch Star Wars characters from [SWAPI](https://swapi.co/)
+This is a sample project that uses `create-react-app` and `netlify-lambda` to fetch Star Wars characters from [SWAPI](https://swapi.co/)
 
 ### [Demo](https://netlify-lambda-create-react-app.netlify.com/)
 
