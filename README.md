@@ -57,7 +57,7 @@ Add the `netlify-lambda` package, which helps build Netlify lambda builds using 
 yarn add netlify-lambda axios
 ```
 
-### Step 3: creating and saving the lambda function
+### Step 3: creating the lambda function directory
 
 Create a directory to store the lambda functions to be used. In our case, in `/src/functions`.
 
